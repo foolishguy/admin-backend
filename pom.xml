@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.lz.scm</groupId>
+		<groupId>com.admin.be</groupId>
 		<artifactId>app-parent</artifactId>
 		<version>1.0.0</version>
 	</parent>
 
-	<groupId>com.lz.scm.app</groupId>
+	<groupId>com.admin.be.app</groupId>
 	<artifactId>superlink-all</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -40,22 +40,22 @@
 	<dependencyManagement>
 		<dependencies>
 		 	<dependency>
-				<groupId>com.lz.scm.app</groupId>
+				<groupId>com.admin.be.app</groupId>
 				<artifactId>superlink-common</artifactId>
 				<version>1.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-				<groupId>com.lz.scm.app</groupId>
+				<groupId>com.admin.be.app</groupId>
 				<artifactId>superlink-biz</artifactId>
 				<version>1.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
-             <groupId>com.lz.scm.app</groupId>
+             <groupId>com.admin.be.app</groupId>
                     <artifactId>superlink-component</artifactId>
                     <version>1.0-SNAPSHOT</version>
             </dependency>
 			<dependency>
-				<groupId>com.lz.scm.app</groupId>
+				<groupId>com.admin.be.app</groupId>
 				<artifactId>superlink-dal</artifactId>
 				<version>1.0-SNAPSHOT</version>
 			</dependency>
@@ -743,7 +743,7 @@
   			<version>1.0</version>
 		</dependency>
 		<dependency>
-  			<groupId>com.lzscm</groupId>
+  			<groupId>com.adminfe</groupId>
   			<artifactId>jbarcode</artifactId>
   			<version>0.2.8</version>
 		</dependency>
@@ -821,7 +821,7 @@
   			<version>3.0.0</version>
 		</dependency>
 		<dependency>
-  			<groupId>com.lz.test</groupId>
+  			<groupId>com.admin.test</groupId>
   			<artifactId>jtester</artifactId>
   			<version>0.8.2</version>
 		</dependency>
